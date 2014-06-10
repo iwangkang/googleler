@@ -32,8 +32,7 @@ urls = [
 options.define('port', default=1688, type=int)
 # options.define('fork', default=1, type=int)
 
-
-def main():
+def start():
     options.parse_command_line()
     port = options.options.port
     # fork = options.options.fork
@@ -54,10 +53,8 @@ def main():
     loop = ioloop.IOLoop.instance()
     loop.start()
 
-
 if __name__ == '__main__':
     print('Development server running on "http://localhost:1688"')
     print('Quit the server with Control+C')
-    main()
-
+    start()
 
