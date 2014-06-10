@@ -1,0 +1,24 @@
+OX_9379828736({
+  "ads":{
+    "medium":"w",
+    "record_tmpl":"http://ox-d.viralnova.com/{medium}/1.0/{rtype}?ts={txn_state}",
+    "adunits" : [
+      {
+        "auid":"537110787",
+        "chain":[
+          {
+            "is_fallback":0,
+            "ad_id":"537209699",
+            "width":"300",
+            "height":"250",
+            "html":"<script type=\"text/javascript\"><!--\ngoogle_ad_client = \"ca-pub-9971377301259316\";\n/* ViralNova.com - Web - ROS - 300x250 - RR Bottom - BTF - R */\ngoogle_ad_slot = \"8368156528\";\ngoogle_ad_width = 300;\ngoogle_ad_height = 250;\n//-->\n</script>\n<script type=\"text/javascript\"\nsrc=\"//pagead2.googlesyndication.com/pagead/show_ads.js\">\n</script>",
+            "target":"_blank",
+            "ts":"1fHJpZD05NWFhMzk0ZC00NjRjLTQzNmEtYmIyNC0xYTEzNTcxNmQwNTd8cnQ9MTQwMjExNzI3NHxhdWlkPTUzNzExMDc4N3xhdW09RE1JRC5XRUJ8c3NpZD01MzcwNjM0NDN8c2lkPTUzNzA3NjMwN3xwdWI9NTM3MDc1NjgyfHBjPVVTRHxyYWlkPWNjNmRlZGE3LTdlMzQtNGM2MS04NzdmLTU0MTI4NDVhOTk2Y3xhaWQ9NTM3MjA5Njk5fHQ9NHxhcz0zMDB4MjUwfGxpZD01MzcxNTY3MTh8b2lkPTUzNzEyMTM1MHxwPTQ1MHxwcj00NTB8YWR2PTUzNzA3NjU3NHxhYz1VU0R8cG09UFJJQ0lORy5DUE18Ym09QlVZSU5HLk5PTkdVQVJBTlRFRUR8dXI9eWhDQTVsanVJag",
+            "type":"html",
+            "ad_url":"<script type=\"text/javascript\"><!--\ngoogle_ad_client = \"ca-pub-9971377301259316\";\n/* ViralNova.com - Web - ROS - 300x250 - RR Bottom - BTF - R */\ngoogle_ad_slot = \"8368156528\";\ngoogle_ad_width = 300;\ngoogle_ad_height = 250;\n//-->\n</script>\n<script type=\"text/javascript\"\nsrc=\"//pagead2.googlesyndication.com/pagead/show_ads.js\">\n</script>"
+          }
+        ]
+      }
+    ]
+  }
+});

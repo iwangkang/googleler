@@ -1,0 +1,24 @@
+OX_3272753390({
+  "ads":{
+    "medium":"w",
+    "record_tmpl":"http://ox-d.viralnova.com/{medium}/1.0/{rtype}?ts={txn_state}",
+    "adunits" : [
+      {
+        "auid":"537097509",
+        "chain":[
+          {
+            "is_fallback":0,
+            "ad_id":"537244635",
+            "width":"728",
+            "height":"90",
+            "html":"<iframe width=\"728\" height=\"90\"  src=\"http://www.viralnova.com/pubgalaxy/728x90_HP_top_R_Tier1_ATF.html\" frameborder=\"0\" scrolling=\"no\" marginwidth=\"0\" marginheight=\"0\" vspace=\"0\" hspace=\"0\" allowtransparency=\"true\"></iframe>",
+            "target":"_blank",
+            "ts":"1fHJpZD03YTZlZWJhZS0xZWEwLTQxMDctYTFkMC00YmExMTNjNzlmMmR8cnQ9MTQwMjExNzI3MnxhdWlkPTUzNzA5NzUwOXxhdW09RE1JRC5XRUJ8c3NpZD01MzcwNjM0NDN8c2lkPTUzNzA3NjMwN3xwdWI9NTM3MDc1NjgyfHBjPVVTRHxyYWlkPWNiMjNhOWViLWRhODMtNDhjYS05ZWRkLWViYjY1MWMxMmViNHxhaWQ9NTM3MjQ0NjM1fHQ9NHxhcz03Mjh4OTB8bGlkPTUzNzE3NjYxMHxvaWQ9NTM3MTM2MDYzfHA9MTUwMHxwcj0xNTAwfGFkdj01MzcwNzk1Mzl8YWM9VVNEfHBtPVBSSUNJTkcuQ1BNfGJtPUJVWUlORy5HVUFSQU5URUVEVk9MVU1FR09BTHx1cj1YMHkzQzdEOUFz",
+            "type":"html",
+            "ad_url":"<iframe width=\"728\" height=\"90\"  src=\"http://www.viralnova.com/pubgalaxy/728x90_HP_top_R_Tier1_ATF.html\" frameborder=\"0\" scrolling=\"no\" marginwidth=\"0\" marginheight=\"0\" vspace=\"0\" hspace=\"0\" allowtransparency=\"true\"></iframe>"
+          }
+        ]
+      }
+    ]
+  }
+});
