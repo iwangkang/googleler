@@ -14,8 +14,8 @@ sys.setdefaultencoding('utf-8')
 from cStringIO import StringIO
 from bson.objectid import ObjectId
 
-from googleler.lib.model.mongod.base import Base
-from googleler.lib.util.logger_util import logger
+from affiliate.lib.model.mongod.base import Base
+from affiliate.lib.util.logger_util import logger
 
 
 class MongodbUtil(Base):

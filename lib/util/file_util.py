@@ -71,14 +71,5 @@ class FileUtil(object):
                                                   local_time.tm_hour, local_time.tm_min, local_time.tm_sec, suffix)
         return file_name
 
-    @classmethod
-    def get_filename_list(cls, file_path, limit_begin=0, limit_end=0):
-        file_list = list()
-        if file_path:
-            file_list = os.listdir(file_path)
-            if (limit_begin < limit_end) and file_list:
-                file_list = file_list[limit_begin:limit_end]
-        return file_list
-
 if __name__ == '__main__':
     print FileUtil.get_filename_by_date('xml')

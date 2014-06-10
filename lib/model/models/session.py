@@ -13,7 +13,7 @@ sys.setdefaultencoding('utf-8')
 
 
 import hashlib
-from googleler.lib.util.date_util import DateUtil
+from affiliate.lib.util.date_util import DateUtil
 
 
 class Session(object):

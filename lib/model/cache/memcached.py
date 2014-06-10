@@ -15,7 +15,7 @@
 #
 # import pylibmc
 #
-# from googleler.config import settings
+# from affiliate.config import settings
 #
 #
 # class MemcachedCache(object):

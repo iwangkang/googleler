@@ -14,27 +14,39 @@ PROCESS = 1
 PORT = 5000
 PORT_GROUP = None
 
-# HOST SRC
-HOST_SRC = 'http://www.zhaoxingyue.com/'
+# XINGCLOUD SHOPPING
+WEBMASTER = 'xc_shopping'
 
-# ROUTING PATH TEMPLATE
-INDEX_TEMPLATE = 'Home.html'
-ERROR_TEMPLATE = 'Error.html'
-OFFLINE_TEMPLATE = 'Offline.html'
-MORNING_TEMPLATE = 'Morning_Paper.html'
-TECHNIQUE_TEMPLATE = 'Technique.html'
-LIFESTYLE_TEMPLATE = 'Lifestyle.html'
-SEX_TEMPLATE = 'Sex_Girls.html'
-SUGGEST_TEMPLATE = 'Suggest.html'
-HELPFUL_TEMPLATE = 'Helpful.html'
-CONTACT_TEMPLATE = 'Contact.html'
+# HOST SRC
+DEFAULT_PRODUCT_PIC = 'http://affiliate.xingcloud.com/static/images/default_product_pic.png'
+
+# INDEX SHOPPING ROUTING PATH TEMPLATE
+INDEX_TEMPLATE = 'index.html'
+ERROR_TEMPLATE = 'error.html'
+OFFLINE_TEMPLATE = 'offline.html'
+NOTHING_TEMPLATE = 'shopping/nothing.html'
+WEB_VIEW_TEMPLATE = 'shopping/web_view.html'
+LIST_VIEW_TEMPLATE = 'shopping/list_view.html'
+# MERCHANT ROUTING PATH TEMPLATE
+UPLOAD_TEMPLATE = 'merchant/upload.html'
+# WEBMASTER ROUTING PATH TEMPLATE
+PRODUCT_LIST_TEMPLATE = 'webmaster/product_list.html'
+INNER_AD_TEMPLATE = 'webmaster/inner_ad.html'
+DEFAULT_INNER_AD_TEMPLATE = 'webmaster/default_inner_ad.html'
+# CMS ROUTING PATH TEMPLATE
+LOGIN_TEMPLATE = 'cms/login.html'
+CMS_INDEX_TEMPLATE = 'cms/index.html'
+CMS_ERROR_TEMPLATE = 'cms/error.html'
+
+# COOKIE
+COOKIE_ALIVE_TIME = 7
 
 # EMAIL LOGGER
 LOG_MAILHOST = 'smtp.exmail.qq.com:25'
 LOG_FROM = 'wangkang@xingcloud.com'
-LOG_TO = ('1228202366@qq.com', )
-LOG_SUBJECT = 'Email for googleler error.'
-LOG_CREDENTIAL = ('wangkang@xingcloud.com', '123456')
+LOG_TO = ('wangkang@xingcloud.com', '393478846@qq.com')
+LOG_SUBJECT = 'Email for affiliate error.'
+LOG_CREDENTIAL = ('wangkang@xingcloud.com', 'wk521025424')
 
 # PAGINATION
 PAGE_SIZE = 10
@@ -48,6 +60,11 @@ IMAGE_SIZE_LIST = {
     'middle': (210, 210),
     'big': (337, 337),
 }
+
+# KEYWORD GRADE
+CATEGORY_GRADE = 3.9
+DESC_GRADE = 0.05
+NAME_GRADE = 0.09
 
 # THREAD POOL
 DEFAULT_MIN_POOL = 10
@@ -95,5 +112,5 @@ WORD_REPLACE = {
     '%': '', '~': '',
     'φ': '', '?': '',
     '≤':'', '-': '',
-    '&': '',
+    '&': '', '\t\t\t': ' ',
 }

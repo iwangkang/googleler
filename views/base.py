@@ -17,8 +17,8 @@ from tornado import web
 from tornado.web import RequestHandler
 from tornado.escape import to_unicode
 
-from googleler.config import settings
-from googleler.lib.util.logger_util import logger
+from affiliate.config import settings
+from affiliate.lib.util.logger_util import logger
 
 
 def _flatten_arguments(args):
@@ -42,7 +42,7 @@ class BaseHandler(RequestHandler):
 
     """
     _cacheable = False
-    _label = 'googleler'
+    _label = 'affiliate'
 
     @web.asynchronous
     def get(self):

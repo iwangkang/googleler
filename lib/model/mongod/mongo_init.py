@@ -14,8 +14,8 @@ sys.setdefaultencoding('utf-8')
 
 import pymongo
 
-from googleler.config import settings
-from googleler.lib.model.mongod.base import Base
+from affiliate.config import settings
+from affiliate.lib.model.mongod.base import Base
 
 
 def init_index(db):

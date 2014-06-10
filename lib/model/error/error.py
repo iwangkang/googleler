@@ -10,7 +10,7 @@ import sys
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
-from googleler.lib.util.logger_util import logger
+from affiliate.lib.util.logger_util import logger
 
 
 class Error(Exception):

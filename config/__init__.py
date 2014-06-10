@@ -8,17 +8,17 @@
 """
 import os
 from . import development, production
-from googleler.lib.util.config_util import setting_from_object
-from googleler.lib.util.dict2object import Dict2Obj
+from affiliate.lib.util.config_util import setting_from_object
+from affiliate.lib.util.dict2object import Dict2Obj
 
 #加载环境变量
-LOVER_ENV = os.environ.get('LOVER_ENV', 'development')
+AFFILIATE_ENV = os.environ.get('AFFILIATE_ENV', 'development')
 
 config = development
 
-if LOVER_ENV.lower() in ["production"]:
+if AFFILIATE_ENV.lower() in ["production"]:
     config = production
 
 settings = Dict2Obj(setting_from_object(config))
 
-del LOVER_ENV
+del AFFILIATE_ENV

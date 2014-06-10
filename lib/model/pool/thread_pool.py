@@ -14,10 +14,10 @@ import time
 import random
 
 from threading import RLock
-from googleler.lib.model.pool.easypool.easypool import ThreadPool
+from affiliate.lib.model.pool.easypool.easypool import ThreadPool
 
 
-from googleler.config import settings
+from affiliate.config import settings
 
 
 class MyThreadPool(object):

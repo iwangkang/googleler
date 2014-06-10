@@ -8,7 +8,7 @@ sys.setdefaultencoding('utf-8')
 import gridfs
 
 from pymongo import MongoClient
-from googleler.config import settings
+from affiliate.config import settings
 
 
 class Base(object):

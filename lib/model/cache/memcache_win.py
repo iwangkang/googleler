@@ -12,8 +12,8 @@ sys.setdefaultencoding('utf-8')
 
 import memcache
 
-from googleler.config import settings
-from googleler.lib.util.logger_util import logger
+from affiliate.config import settings
+from affiliate.lib.util.logger_util import logger
 
 
 class McCache(object):

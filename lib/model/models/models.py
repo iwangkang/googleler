@@ -14,10 +14,10 @@ sys.setdefaultencoding('utf-8')
 import abc
 import ujson as json
 
-from googleler.config import settings
-from googleler.lib.util.logger_util import logger
-from googleler.lib.util.math_util import MathUtil
-from googleler.lib.model.mongod.mongodb_util import MongodbUtil
+from affiliate.config import settings
+from affiliate.lib.util.logger_util import logger
+from affiliate.lib.util.math_util import MathUtil
+from affiliate.lib.model.mongod.mongodb_util import MongodbUtil
 
 
 class ResponseBase(object):
