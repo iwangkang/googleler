@@ -28,3 +28,17 @@ class IndexHandler(BaseHandler):
             self.render(settings.index_template)
         except Exception as e:
             logger.error('[message: %s]' % e.message)
+
+
+class ArticleHandler(BaseHandler):
+    """
+    首页
+
+    """
+
+    def get(self):
+        try:
+            self._event('index')
+            self.render(settings.detail_template)
+        except Exception as e:
+            logger.error('[message: %s]' % e.message)

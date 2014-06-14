@@ -16,7 +16,7 @@ from tornado import options
 from tornado import process
 
 from googleler.config import settings
-from googleler.views.index import IndexHandler
+from googleler.views.index import IndexHandler, ArticleHandler
 # from googleler.views.common import WaterfallHandler
 
 SETTINGS = dict(
@@ -26,6 +26,7 @@ SETTINGS = dict(
 
 urls = [
     (r'/', IndexHandler),
+    (r'/article', ArticleHandler),
 ]
 
 

@@ -15,19 +15,13 @@ PORT = 5000
 PORT_GROUP = None
 
 # HOST SRC
-HOST_SRC = 'http://www.zhaoxingyue.com/'
+HOST_SRC = 'http://www.googleler.com/'
 
 # ROUTING PATH TEMPLATE
 INDEX_TEMPLATE = 'Home.html'
 ERROR_TEMPLATE = 'Error.html'
 OFFLINE_TEMPLATE = 'Offline.html'
-MORNING_TEMPLATE = 'Morning_Paper.html'
-TECHNIQUE_TEMPLATE = 'Technique.html'
-LIFESTYLE_TEMPLATE = 'Lifestyle.html'
-SEX_TEMPLATE = 'Sex_Girls.html'
-SUGGEST_TEMPLATE = 'Suggest.html'
-HELPFUL_TEMPLATE = 'Helpful.html'
-CONTACT_TEMPLATE = 'Contact.html'
+DETAIL_TEMPLATE = 'Detail.html'
 
 # EMAIL LOGGER
 LOG_MAILHOST = 'smtp.exmail.qq.com:25'
